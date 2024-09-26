@@ -1,13 +1,13 @@
 import React from "react";
 import Header from "./components/Header";
-import CurrencyConverter from "./pages/CurrencyConverter";
+import CurrencyConvertor from "./pages/CurrencyConvertor";
 
 const App: React.FC = () => {
   return (
     <>
       <Header />
       <main>
-        <CurrencyConverter />
+        <CurrencyConvertor />
       </main>
     </>
   );

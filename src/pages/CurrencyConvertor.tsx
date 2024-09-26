@@ -3,7 +3,7 @@ import { fetchCurrencyRates } from "../api";
 
 type Currency = "UAH" | "USD" | "EUR";
 
-const CurrencyConverter: React.FC = () => {
+const CurrencyConvertor: React.FC = () => {
   const [amount1, setAmount1] = useState(0);
   const [amount2, setAmount2] = useState(0);
   const [currency1, setCurrency1] = useState<Currency>("UAH");
@@ -93,4 +93,4 @@ const CurrencyConverter: React.FC = () => {
   );
 };
 
-export default CurrencyConverter;
+export default CurrencyConvertor;
